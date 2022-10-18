@@ -1,6 +1,6 @@
 import { Controller, Post, Body } from '@nestjs/common';
-import { Form } from 'src/form/form';
-import { FormService } from 'src/form/form.service';
+import { Form } from './form';
+import { FormService } from './form.service';
 
 // domain.com/forms
 @Controller('forms')
