@@ -7,6 +7,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:3000',
+      'https://main--lighthearted-gumption-c7f421.netlify.app/'
     ],
     methods: ["GET", "POST"],
     credentials: true,
